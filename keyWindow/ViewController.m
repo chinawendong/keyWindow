@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "KeyImageView.h"
+
+@interface ViewController ()<UITextFieldDelegate>
 
 @end
 
@@ -17,7 +19,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor blueColor];
+    UITextField *t = [[UITextField alloc]initWithFrame:CGRectMake(10, 64, 100, 20)];
+    t.delegate = self;
+
+    UIImageView *la = [[UIImageView alloc]initWithFrame:CGRectMake(10, 100, 100,100)];
+    [self.view addSubview:la];
+    la.image = [UIImage imageNamed:@"221.gif"];
+    [la startAnimating];
+    [self.view addSubview:t];
+    KeyImageView *k = [[KeyImageView alloc]init];
+    [self.view addSubview:k];
+
 }
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

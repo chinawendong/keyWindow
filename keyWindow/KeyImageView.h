@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KeyImageView.h
 //  keyWindow
 //
 //  Created by 云族佳 on 16/4/5.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface KeyImageView : UIImageView
 
 @end
-

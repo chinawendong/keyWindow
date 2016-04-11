@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		734ACE871CB6437A000A9C1A /* FunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 734ACE861CB6437A000A9C1A /* FunctionView.m */; };
+		7354DF791CB4EA9400C61070 /* ExpressionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354DF781CB4EA9400C61070 /* ExpressionView.m */; };
+		7354DF7E1CB4EFF600C61070 /* EmojiItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354DF7D1CB4EFF600C61070 /* EmojiItemView.m */; };
+		7354DF801CB5054900C61070 /* MHEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354DF7F1CB5054900C61070 /* MHEmoji.m */; };
 		737B26381CB3975100964037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B26371CB3975100964037 /* main.m */; };
 		737B263B1CB3975100964037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B263A1CB3975100964037 /* AppDelegate.m */; };
 		737B263E1CB3975100964037 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B263D1CB3975100964037 /* ViewController.m */; };
@@ -15,6 +19,14 @@
 		737B26461CB3975100964037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737B26441CB3975100964037 /* LaunchScreen.storyboard */; };
 		737B26511CB3975100964037 /* keyWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B26501CB3975100964037 /* keyWindowTests.m */; };
 		737B265C1CB3975100964037 /* keyWindowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 737B265B1CB3975100964037 /* keyWindowUITests.m */; };
+		7398D98A1CB3B80700FECA7E /* KeyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7398D9891CB3B80700FECA7E /* KeyImageView.m */; };
+		739C93B51CBB86CF0029B1C2 /* PhotoAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 739C93AF1CBB86CF0029B1C2 /* PhotoAlbumManager.m */; };
+		739C93B61CBB86CF0029B1C2 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 739C93B11CBB86CF0029B1C2 /* PhotoCell.m */; };
+		739C93B71CBB86CF0029B1C2 /* PhotoCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 739C93B31CBB86CF0029B1C2 /* PhotoCollectionViewLayout.m */; };
+		739C93B81CBB86CF0029B1C2 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 739C93B41CBB86CF0029B1C2 /* PhotoCell.xib */; };
+		739C93BE1CBB8A650029B1C2 /* PhotoAlbumControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 739C93BB1CBB8A650029B1C2 /* PhotoAlbumControllerView.m */; };
+		739C93BF1CBB8A650029B1C2 /* PhotoToobar.m in Sources */ = {isa = PBXBuildFile; fileRef = 739C93BD1CBB8A650029B1C2 /* PhotoToobar.m */; };
+		739C93C21CBB9CBA0029B1C2 /* PhtotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739C93C11CBB9CBA0029B1C2 /* PhtotViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		734ACE851CB6437A000A9C1A /* FunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionView.h; sourceTree = "<group>"; };
+		734ACE861CB6437A000A9C1A /* FunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionView.m; sourceTree = "<group>"; };
+		7354DF771CB4EA9400C61070 /* ExpressionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionView.h; sourceTree = "<group>"; };
+		7354DF781CB4EA9400C61070 /* ExpressionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressionView.m; sourceTree = "<group>"; };
+		7354DF7A1CB4ECE000C61070 /* MHEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHEmoji.h; sourceTree = "<group>"; };
+		7354DF7C1CB4EFF600C61070 /* EmojiItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiItemView.h; sourceTree = "<group>"; };
+		7354DF7D1CB4EFF600C61070 /* EmojiItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiItemView.m; sourceTree = "<group>"; };
+		7354DF7F1CB5054900C61070 /* MHEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHEmoji.m; sourceTree = "<group>"; };
 		737B26331CB3975100964037 /* keyWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keyWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		737B26371CB3975100964037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		737B26391CB3975100964037 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +71,21 @@
 		737B26571CB3975100964037 /* keyWindowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyWindowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		737B265B1CB3975100964037 /* keyWindowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keyWindowUITests.m; sourceTree = "<group>"; };
 		737B265D1CB3975100964037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7398D9881CB3B80700FECA7E /* KeyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyImageView.h; sourceTree = "<group>"; };
+		7398D9891CB3B80700FECA7E /* KeyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyImageView.m; sourceTree = "<group>"; };
+		739C93AE1CBB86CF0029B1C2 /* PhotoAlbumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumManager.h; sourceTree = "<group>"; };
+		739C93AF1CBB86CF0029B1C2 /* PhotoAlbumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumManager.m; sourceTree = "<group>"; };
+		739C93B01CBB86CF0029B1C2 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		739C93B11CBB86CF0029B1C2 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		739C93B21CBB86CF0029B1C2 /* PhotoCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewLayout.h; sourceTree = "<group>"; };
+		739C93B31CBB86CF0029B1C2 /* PhotoCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewLayout.m; sourceTree = "<group>"; };
+		739C93B41CBB86CF0029B1C2 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		739C93BA1CBB8A650029B1C2 /* PhotoAlbumControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumControllerView.h; sourceTree = "<group>"; };
+		739C93BB1CBB8A650029B1C2 /* PhotoAlbumControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumControllerView.m; sourceTree = "<group>"; };
+		739C93BC1CBB8A650029B1C2 /* PhotoToobar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoToobar.h; sourceTree = "<group>"; };
+		739C93BD1CBB8A650029B1C2 /* PhotoToobar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoToobar.m; sourceTree = "<group>"; };
+		739C93C01CBB9CBA0029B1C2 /* PhtotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhtotViewController.h; sourceTree = "<group>"; };
+		739C93C11CBB9CBA0029B1C2 /* PhtotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhtotViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +136,33 @@
 		737B26351CB3975100964037 /* keyWindow */ = {
 			isa = PBXGroup;
 			children = (
+				739C93BA1CBB8A650029B1C2 /* PhotoAlbumControllerView.h */,
+				739C93BB1CBB8A650029B1C2 /* PhotoAlbumControllerView.m */,
+				739C93BC1CBB8A650029B1C2 /* PhotoToobar.h */,
+				739C93BD1CBB8A650029B1C2 /* PhotoToobar.m */,
 				737B26391CB3975100964037 /* AppDelegate.h */,
 				737B263A1CB3975100964037 /* AppDelegate.m */,
 				737B263C1CB3975100964037 /* ViewController.h */,
 				737B263D1CB3975100964037 /* ViewController.m */,
+				7398D9881CB3B80700FECA7E /* KeyImageView.h */,
+				7398D9891CB3B80700FECA7E /* KeyImageView.m */,
+				7354DF771CB4EA9400C61070 /* ExpressionView.h */,
+				7354DF781CB4EA9400C61070 /* ExpressionView.m */,
+				7354DF7C1CB4EFF600C61070 /* EmojiItemView.h */,
+				7354DF7D1CB4EFF600C61070 /* EmojiItemView.m */,
+				734ACE851CB6437A000A9C1A /* FunctionView.h */,
+				734ACE861CB6437A000A9C1A /* FunctionView.m */,
+				7354DF7A1CB4ECE000C61070 /* MHEmoji.h */,
+				7354DF7F1CB5054900C61070 /* MHEmoji.m */,
+				739C93AE1CBB86CF0029B1C2 /* PhotoAlbumManager.h */,
+				739C93AF1CBB86CF0029B1C2 /* PhotoAlbumManager.m */,
+				739C93B01CBB86CF0029B1C2 /* PhotoCell.h */,
+				739C93B11CBB86CF0029B1C2 /* PhotoCell.m */,
+				739C93C01CBB9CBA0029B1C2 /* PhtotViewController.h */,
+				739C93C11CBB9CBA0029B1C2 /* PhtotViewController.m */,
+				739C93B41CBB86CF0029B1C2 /* PhotoCell.xib */,
+				739C93B21CBB86CF0029B1C2 /* PhotoCollectionViewLayout.h */,
+				739C93B31CBB86CF0029B1C2 /* PhotoCollectionViewLayout.m */,
 				737B263F1CB3975100964037 /* Main.storyboard */,
 				737B26421CB3975100964037 /* Assets.xcassets */,
 				737B26441CB3975100964037 /* LaunchScreen.storyboard */,
@@ -243,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739C93B81CBB86CF0029B1C2 /* PhotoCell.xib in Resources */,
 				737B26461CB3975100964037 /* LaunchScreen.storyboard in Resources */,
 				737B26431CB3975100964037 /* Assets.xcassets in Resources */,
 				737B26411CB3975100964037 /* Main.storyboard in Resources */,
@@ -270,9 +329,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7354DF791CB4EA9400C61070 /* ExpressionView.m in Sources */,
+				739C93B71CBB86CF0029B1C2 /* PhotoCollectionViewLayout.m in Sources */,
+				739C93C21CBB9CBA0029B1C2 /* PhtotViewController.m in Sources */,
+				7354DF801CB5054900C61070 /* MHEmoji.m in Sources */,
+				734ACE871CB6437A000A9C1A /* FunctionView.m in Sources */,
+				7398D98A1CB3B80700FECA7E /* KeyImageView.m in Sources */,
 				737B263E1CB3975100964037 /* ViewController.m in Sources */,
 				737B263B1CB3975100964037 /* AppDelegate.m in Sources */,
+				739C93B61CBB86CF0029B1C2 /* PhotoCell.m in Sources */,
+				739C93BF1CBB8A650029B1C2 /* PhotoToobar.m in Sources */,
+				739C93B51CBB86CF0029B1C2 /* PhotoAlbumManager.m in Sources */,
+				7354DF7E1CB4EFF600C61070 /* EmojiItemView.m in Sources */,
 				737B26381CB3975100964037 /* main.m in Sources */,
+				739C93BE1CBB8A650029B1C2 /* PhotoAlbumControllerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = keyWindow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunzujia.keyWindow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = keyWindow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunzujia.keyWindow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +570,7 @@
 				737B26621CB3975100964037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		737B26631CB3975100964037 /* Build configuration list for PBXNativeTarget "keyWindowTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +579,7 @@
 				737B26651CB3975100964037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		737B26661CB3975100964037 /* Build configuration list for PBXNativeTarget "keyWindowUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +588,7 @@
 				737B26681CB3975100964037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
